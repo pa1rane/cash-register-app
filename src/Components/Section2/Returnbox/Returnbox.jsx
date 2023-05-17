@@ -1,5 +1,4 @@
 import styles from './Returnbox.module.css';
-import Image2 from '../../../../Assets/cashAmount.png';
 
 const Returnbox = ({bill,cash}) => {
 
@@ -9,7 +8,7 @@ const Returnbox = ({bill,cash}) => {
   return (
     <>
       <div className={styles.container}>
-      <img src={Image2} alt="bill-reciept" width="50px" height="50px" className={styles.img}/>
+      <img src='../../../../Assets/cashAmount.png' alt="bill-reciept" width="50px" height="50px" className={styles.img}/>
         <div className={styles.details}>
         <p className={styles.cashAmountHeading}>RETURN AMOUNT</p>
         <p className={styles.cashAmount}><span className={styles.moneySign}>$</span>{truncatedReturnAmount}</p>
