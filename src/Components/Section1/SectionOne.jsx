@@ -1,5 +1,5 @@
 import styles from './SectionOne.module.css';
-import ReturnTable from './Returntable/Returntable';
+import ReturnTable from './Returntable/ReturnTable';
 import FormSection from './Formsection/FormSection';
 import Logo from './Logo/Logo';
 
