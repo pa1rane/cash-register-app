@@ -1,0 +1,54 @@
+.returnTable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+caption{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+table {
+    border: none;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 2px 2px hsl(0deg 0% 50% / 0.2),
+    2px 4px 4px hsl(0deg 0% 50% / 0.2),
+    4px 8px 8px hsl(0deg 0% 50% / 0.2),
+    8px 16px 16px hsl(0deg 0% 50% / 0.2),
+    16px 32px 32px hsl(0deg 0% 50% / 0.2);
+  }
+
+   th, td {
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .border{
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* CSS rules for screens with a maximum width of 480px */
+
+@media (max-width: 480px) {
+
+  caption{
+    font-size: 17px;
+}
+ table {
+  width: 300px;
+  height: 70px;
+}
+ th, td {
+  width: 300px;
+  font-size: 12.4px;
+}
+}

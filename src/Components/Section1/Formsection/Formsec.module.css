@@ -1,0 +1,104 @@
+.container{
+  margin-top: 100px;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input{
+  outline: none;
+  box-shadow: 1px 2px 2px hsl(0deg 0% 50% / 0.2),
+  2px 4px 4px hsl(0deg 0% 50% / 0.2),
+  4px 8px 8px hsl(0deg 0% 50% / 0.2),
+  8px 16px 16px hsl(0deg 0% 50% / 0.2);
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  padding-left: 10px;
+}
+
+input[type="number"],
+button {
+  margin: 10px 0; 
+  width: 320px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+    margin-top: 30px;
+    background-color: hsl(0, 0%, 0%);
+    color: aliceblue;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: all 0.5s;
+    box-shadow: 1px 2px 2px hsl(0deg 0% 50% / 0.2),
+    2px 4px 4px hsl(0deg 0% 50% / 0.2),
+    4px 8px 8px hsl(0deg 0% 50% / 0.2),
+    8px 16px 16px hsl(0deg 0% 50% / 0.2);
+  }
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/* CSS rules for screens with a maximum width of 480px */
+
+@media (max-width: 480px) {
+  .container {
+       margin-top: 40px;
+  }
+   
+  label{
+    font-size: 16px;
+  }
+
+  input[type="number"],
+button {
+  width: 260px;
+  height: 27px;
+}
+
+button{
+  font-size: 13px;
+}
+
+}

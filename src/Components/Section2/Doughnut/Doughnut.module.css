@@ -1,0 +1,68 @@
+.dNut{
+    height: 160px;
+    width: 160px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    margin-left: 420px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 1px 2px 2px hsl(198deg 21% 50% / 0.2),
+    2px 4px 4px hsl(198deg 21% 50% / 0.2),
+    4px 8px 8px hsl(198deg 21% 50% / 0.2),
+    8px 16px 16px hsl(198deg 21% 50% / 0.2),
+    16px 32px 32px hsl(198deg 21% 50% / 0.2);
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.heading {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px 0;
+    color: rgba(0, 0, 0, 0.403);
+}
+
+.noteStyle{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.chartItem {
+    height: 10px; 
+    margin-bottom: 5px; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  /* CSS rules for screens with a maximum width of 480px */
+
+@media (max-width: 480px) {
+    .dNut{
+        height: 120px;
+        width: 120px;
+        margin-top: -20px;
+        margin-bottom: -20px;
+        margin-left: 250px;
+    }
+
+    .heading {
+        font-size: 12px;
+        margin: 5px 0;
+    }
+
+    .noteStyle{
+        font-size: 10px;
+    }
+    
+    .chartItem {
+        height: 7px; 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+}

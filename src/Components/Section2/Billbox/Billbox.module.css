@@ -1,0 +1,73 @@
+.container{
+    height: 160px;
+    width: 160px;
+    margin-top: 100px;
+    margin-left: 320px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 1px 2px 2px hsl(198deg 21% 50% / 0.2),
+    2px 4px 4px hsl(198deg 21% 50% / 0.2),
+    4px 8px 8px hsl(198deg 21% 50% / 0.2),
+    8px 16px 16px hsl(198deg 21% 50% / 0.2),
+    16px 32px 32px hsl(198deg 21% 50% / 0.2);
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.billAmountHeading{
+    font-size: 14px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.403);
+}
+
+.moneySign{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.403);
+}
+
+.billAmount{
+    font-size: 22px;
+    font-weight: bold;
+    color: rgba(60, 138, 254, 0.996);
+}
+
+.img{
+    max-width: 100%;
+    height: auto;
+    margin: 10px;
+}
+
+/* CSS rules for screens with a maximum width of 480px */
+
+@media (max-width: 480px) {
+    .container{
+        height: 120px;
+        width: 120px;
+        margin-top: 35px;
+        margin-left: 160px;
+    }
+
+    .img{
+        max-width: 100%;
+        height: auto;
+        margin: 5px;
+    }
+
+    .billAmountHeading{
+        font-size: 12px;
+    }
+    
+    .moneySign{
+        font-size: 14px;
+    }
+    
+    .billAmount{
+        font-size: 16px;
+    }
+}
