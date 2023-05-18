@@ -37,8 +37,8 @@
     color: rgba(60, 138, 254, 0.996);
 }
 
-.img{
-    max-width: 100%;
+ .img{
+    width: 35%;
     height: auto;
     margin: 10px;
 }
@@ -51,12 +51,6 @@
         width: 120px;
         margin-top: 35px;
         margin-left: 160px;
-    }
-
-    .img{
-        max-width: 100%;
-        height: auto;
-        margin: 5px;
     }
 
     .billAmountHeading{

@@ -7,7 +7,7 @@ const Billbox = ({bill}) => {
   return (
     <>
       <div className={styles.container}>
-        <img src= '../../../../Assets/billAmount.png'  alt="bill-reciept" width="50px" height="50px"className={styles.img}/>
+        <img src= '../../../../Assets/billAmount.png'  alt="bill-reciept" className={styles.img}/>
         <div className={styles.details}>
        <p className={styles.billAmountHeading}>BILL AMOUNT</p>
         <p className={styles.billAmount}><span className={styles.moneySign}>$</span>{truncatedBillAmount==="" ? 0: truncatedBillAmount}</p>
