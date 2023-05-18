@@ -4,6 +4,7 @@ This repository contains a cash register app that helps calculate the minimum nu
 * Calculates the minimum number of notes required to make change for a given bill amount.
 * Provides an intuitive user interface for inputting the bill amount and displaying the result.
 * Ensures accurate and efficient cash handling during transactions.
+* Mobile Responsive.
 # Installation
 * `git clone https://github.com/pa1rane/cash-register-app`
 * `npm install`
