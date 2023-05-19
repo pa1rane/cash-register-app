@@ -2,7 +2,7 @@
     height: 160px;
     width: 160px;
     margin-top: 100px;
-    margin-left: 320px;
+    margin-left: 300px;
     background: white;
     border-radius: 12px;
     box-shadow: 1px 2px 2px hsl(198deg 21% 50% / 0.2),
@@ -10,6 +10,7 @@
     4px 8px 8px hsl(198deg 21% 50% / 0.2),
     8px 16px 16px hsl(198deg 21% 50% / 0.2),
     16px 32px 32px hsl(198deg 21% 50% / 0.2);
+
 }
 
 .details{
@@ -50,7 +51,7 @@
         height: 120px;
         width: 120px;
         margin-top: 35px;
-        margin-left: 160px;
+        margin-left: 150px;
     }
 
     .billAmountHeading{
