@@ -22,10 +22,10 @@ const handleChange=(e)=>{
     <div className={styles.container}>
       <form onSubmit={handleSubmit}>
         <label htmlFor="bill">Bill Amount</label>
-        <input type="number" onChange={handleChange} value={amount.bill} name='bill' id='bill' autoComplete='off'/>
+        <input type="number" onChange={handleChange} value={amount.bill} name='bill' id='bill' autoComplete='off'min={1}/>
 
         <label htmlFor="cash">Cash Given Amount</label>
-        <input type="number" onChange={handleChange} value={amount.cash} name='cash' id='cash' autoComplete='off'/>
+        <input type="number" onChange={handleChange} value={amount.cash} name='cash' id='cash' autoComplete='off' min={1}/>
 
         <button type='submit'id='btn'
         ><span>Check</span></button>
